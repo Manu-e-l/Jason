@@ -1,0 +1,129 @@
+@media (prefers-reduced-motion: no-preference) {
+  @font-face {
+    font-family: 'Cinzel';
+    src: local('Cinzel'), url(./Font/Cinzel/Cinzel-VariableFont_wght.ttf) format('truetype');
+  }
+
+
+  
+  .App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    }
+  }
+
+  .App-header {
+    background: #ffffff;
+    text-align: center;
+    border-bottom: solid;
+    border-width: 0.2em;
+    border-color: #f76c6c;
+  }
+
+  .App-header img {
+    max-width: 96px;
+
+  }
+
+  .App-header h1 {
+    font-size: 2.5em;
+    font-family: Cinzel;
+    color: #000000;
+  }
+
+  .App-Content h2 {
+    font-family:Cinzel ;
+  }
+
+  .add-member-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .argo-list{
+    font-family: Cinzel;
+    ;
+  }
+
+  .input {
+    width: 300px;
+    border-radius: 20PX;
+
+  }
+
+  input::placeholder {
+    font-weight: bold;
+    font-family: Cinzel;
+    opacity: .5;
+    color: #f76c6c;
+  }
+
+  .btn-submit {
+    background-attachment: fixed;
+    background-color: #f76c6c;
+    font-family: Cinzel;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 150PX;
+    margin: 8px;
+  }
+
+  .crew-container {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .crew-container h2 {
+    align-self: center;
+  }
+
+  .argo-list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .App-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-family: fantasy;
+    font-style: italic;
+    /* font-weight: bold; */
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    padding: 0.25em;
+    border-top: solid;
+    border-width: 0.2em;
+    border-color: #f76c6c;
+  }
+
+  .footer-logo {
+    height: 35px;
+    margin-right: 10px;
+
+  }
+
+
+  .App-link {
+    color: #f76c6c;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
